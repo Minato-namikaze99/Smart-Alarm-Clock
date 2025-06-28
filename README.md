@@ -22,7 +22,6 @@ smart-alarm-clock/
 │ └── requirements.txt ← Python dependencies
 ├── docs/
 │ └── circuit-diagram.png ← wiring diagram
-├── .gitignore
 └── README.md
 ```
 
