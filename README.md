@@ -60,6 +60,8 @@ python app.py
 
 ## ⚡ Wiring Diagram
 
+![Circuit Diagram](docs/circuit-diagram.png)
+
 Buzzer → GPIO 13 & GND
 
 Snooze Button → GPIO 12 & GND (INPUT_PULLUP)
