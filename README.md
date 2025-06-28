@@ -68,8 +68,6 @@ Snooze Button → GPIO 12 & GND (INPUT_PULLUP)
 
 Stop Button → GPIO 14 & GND (INPUT_PULLUP)
 
-5 V (or 3.3 V) power to buzzers from ESP32 VIN.
-
 ## 🎉 Usage
 
 Power up ESP32; it will host a web server on port 80.
