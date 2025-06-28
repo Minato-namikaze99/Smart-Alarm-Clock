@@ -50,13 +50,14 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+> In case of any issues with Virtual environment, you can refer to these links here - [link1](https://www.w3schools.com/python/python_virtualenv.asp) and [link2](https://docs.python.org/3/library/venv.html)
 2. Copy your own OAuth2 client_secret JSON to credentials.json
 3. Then run this final command to run the flask server - 
 ```bash
 python app.py
 ```
-4. Visit http://localhost:5000/ → health check.
-5. Visit http://localhost:5000/events → today’s events JSON.
+4. Visit `http://localhost:5000/` → health check.
+5. Visit `http://localhost:5000/events` → today’s events JSON.
 
 ## ⚡ Wiring Diagram
 
@@ -72,7 +73,7 @@ Stop Button → GPIO 14 & GND (INPUT_PULLUP)
 
 Power up ESP32; it will host a web server on port 80.
 
-Browse to http://<ESP32_IP>/ to set your alarm.
+Browse to `http://<ESP32_IP>/` to set your alarm.
 
 When alarm rings:
 
